@@ -9,8 +9,14 @@
     font-family: 'My Lucida', Console;
 }
 
+.container-fluid{
+    width: 100%;
+     display: flex;
+}
+
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
+   
 }
 
 a {
@@ -21,6 +27,8 @@ a {
 .wrapper {
     padding: 25px 0;
 }
+
+
 
 body > header {
     margin-bottom: 20px;
