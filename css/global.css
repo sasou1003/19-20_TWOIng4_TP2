@@ -14,6 +14,10 @@
      display: flex;
 }
 
+.dropdown a{
+    font-size: 0.8rem;
+}
+
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
    
@@ -25,15 +29,15 @@ a {
 }
 
 .wrapper {
-    padding: 25px 0;
+    padding: 1.2em 0em;
 }
 
 
 
 body > header {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     background: white;
-    box-shadow: 1px 0px 8px rgb(200, 200, 200);
+    box-shadow: 0.1rem 0rem 0.8rem rgb(200, 200, 200);
 }
 
 header .logo-search form  {
@@ -45,13 +49,13 @@ header .user {
 }
 
 header .user a {
-    font-size: 13px;
+    font-size: 1rem;
     color: #89949b;
-    padding-top: 5px;
+    padding-top: 0.7rem;
 }
 
 main h2 {
-    margin-top: 4px;
+    margin-top: 0.6rem;
 }
 
 
@@ -62,15 +66,17 @@ main article {
 h3 {
     color: #b8c3c9;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 0.7em;
     font-weight: normal;
-    margin-bottom: 10px;
+    margin-bottom: 0.5em;
+
 }
 
 nav ul li a { 
-    font-size: 14px;
+    font-size: 0.8em;
     font-weight: normal;
     color: #828c92;
+    margin-left: 0.9rem;
 }
 
 nav ul li a:hover {
@@ -78,46 +84,46 @@ nav ul li a:hover {
 }
 
 nav ul li {
-    margin-top: 5px;
+    margin-top: 0.3em;
 }
 
 main header aside img {
-    border: 1px solid #dadada;
+    border: 0.1rem solid #dadada;
     border-radius: 50%;
-    box-shadow: 0 0 5px #cecece;
+    box-shadow: 0 0 0.5rem #cecece;
 }
 
 nav ul li:last-child {
-    margin-bottom: 30px;
+    margin-bottom: 0.3rem;
 }
 
 h1 {
     color: #4b5c66;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: normal;
-    margin: 0 0 8px 0;
+    margin: 0 0 0.2rem 0;
 }
 
 .name p { 
     color: #a0aab1;
-    font-size: 12px;
+    font-size: 0.7rem;
 }
 
 .name p img { 
-    margin-left: 12px;
+    margin-left: 0.8rem;
 }
 
 
 .stats-links {
     color: #4b5c66;
-    font-size: 12px;
-    padding: 15px 0px 10px 0px;
-    border-bottom: 1px solid #e1e6e9;
-    margin-bottom: 20px;
+    font-size: 0.6rem;
+    padding: 1rem 0rem 0.8rem 0.5rem;
+    border-bottom: 0.1rem solid #e1e6e9;
+    margin-bottom: 0.2rem;
 }
 
 .stats-links span, .stats-links a {
-    margin-right: 20px;
+    margin-right: 0.8rem;
 }
 
 .stats-links a:last-child {
@@ -125,33 +131,33 @@ h1 {
 }
 
 .stats-links a {
-    font-size: 12px;
+    font-size: 0.6rem;
     font-weight: normal;
     color: #4b5c66;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: normal;
     color: #4b5c66;
 }
 
 header form {
-    width: 100%;
+    width: 110%;
 }
 
 input.search {
     background: url("../img/icon/search.png") #ebeff1 no-repeat 8px;
     box-shadow: none;
-    height: 28px;
+    height: 2.2rem;
     width: 100%;
-    font-size: 13px;
-    padding: 3px 6px 3px 25px;
-    border: 1px solid #d0dde9;
-    margin: 0;
-    border-radius: 15px;
-    top: 11px;
-    box-shadow: inset 1px 1px 5px #d5d5d5;
+    font-size: 1rem;
+    padding: 0.2rem 0.4rem 0.2rem 2rem;
+    border: 0.1rem solid #d0dde9;
+    margin: 0rem;
+    border-radius: 1.2rem;
+    top: 1.1rem;
+    box-shadow: inset 0.1rem 0.1rem 0.4rem #d5d5d5;
 }
 
 input.submit {
@@ -159,15 +165,16 @@ input.submit {
 }
 
 .station {
-    font-size: 12px;
+    font-size: 0.6rem;
     color: #008fd5;
-    border-radius: 5px;
-    border: 1px solid #b8c3c9;
+    border-radius: 0.4rem;
+    border: 0.1rem solid #b8c3c9;
     cursor: pointer;
-    padding: 7px 10px 7px 30px;
-    box-shadow: 1px 1px #d5d5d5;
-    background: url("../img/icon/station.png") no-repeat 8px;
+    padding: 0.4rem 0.8rem 0.5rem 1.6rem;
+    box-shadow: 0.1rem 0.1rem #d5d5d5;
+    background: url("../img/icon/station.png") no-repeat 0.7rem;
     transition: all 0.4s;
+  
 }
 
 .station:hover {
@@ -178,52 +185,80 @@ input.submit {
 
 
 #albums article {
-    font-size: 13px;
+    font-size: 0.7rem;
     color: #89949b;
-    margin: 10px 0;
+    margin: 1rem 0;
 }
 
 #albums article img {
-    border: 1px solid #cbcbcb;
+    border: 0.1rem solid #cbcbcb;
     transition: all 0.3s;
     width: 100%;
 }
 
 #albums article img:hover {
-    box-shadow: 0 0 15px #848484;
+    box-shadow: 0 0 1.5rem #848484;
     transform: scale(1.1) rotate(-3deg);
 }
 
 #albums article figcaption {
     color: #4b5c66;
-    margin-top: 6px;
+    margin-top: 0.6rem;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 #albums article .artist, #albums article .count {
-    margin-top: 4px;
+    margin-top: 0.4rem;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 #albums .explicit {
     color: #ff5d5d;
-    margin-left: 5px;
+    margin-left: 0.4rem;
 }
 
 nav.browse a, nav.music a {
-    padding-left: 20px;
-    padding-top: 2px;
+    padding-left: 2rem;
+    padding-top: 0.2rem;
 }
 
-nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
-nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
-nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
-nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
-nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
-nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
+nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0rem; }
+nav a.recent { background: url("../img/icon/recent.png") no-repeat 0rem; }
+nav a.top { background: url("../img/icon/top.png") no-repeat 0rem; }
+nav a.new { background: url("../img/icon/new.png") no-repeat 0rem; }
+nav a.collection { background: url("../img/icon/collection.png") no-repeat 0rem; }
+nav a.history { background: url("../img/icon/history.png") no-repeat 0rem; }
 
 
+@media only screen and (min-width: 600px) and (max-width: 1400px){
+  html {
+    font-size: 1.1em;
+  }
+}
 
+@media only screen and (min-width: 450px) and (max-width: 600px){
+  html {
+    font-size: 1em;
+  }
+}
 
+@media only screen and (max-width: 450px){
+  html {
+    font-size: 0.9em;
+  }
+
+}
+
+@media only screen and (max-width: 650px){
+  .name a {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 650px){
+  header form {
+    display: none;
+  }
+}
